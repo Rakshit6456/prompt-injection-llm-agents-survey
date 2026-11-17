@@ -1,0 +1,13 @@
+﻿Source,Date,Search string or step,Hits / count,Notes
+arXiv,26 Oct 2026,"all:""prompt injection"" AND (all:LLM OR all:agent) AND (all:attack OR all:defense OR all:defence)",819,"First run, from original search log"
+arXiv,26 Oct 2026,"all:""indirect prompt injection"" AND (all:LLM OR all:agent) AND (all:attack OR all:defense OR all:defence)",201,First run
+arXiv,26 Oct 2026,"(all:jailbreak OR all:jailbreaking) AND (all:LLM OR all:""large language model"") AND (all:attack OR all:defense OR all:defence)",1304,First run
+arXiv,15 Nov 2026,"all:""prompt injection"" AND (all:LLM OR all:agent) AND (all:attack OR all:defense OR all:defence)",867,Re-run through arXiv API; counts reported in Table I
+arXiv,15 Nov 2026,"all:""indirect prompt injection"" AND (all:LLM OR all:agent) AND (all:attack OR all:defense OR all:defence)",215,Re-run through arXiv API
+arXiv,15 Nov 2026,"(all:jailbreak OR all:jailbreaking) AND (all:LLM OR all:""large language model"") AND (all:attack OR all:defense OR all:defence)",1320,Re-run through arXiv API
+IEEE Xplore,16 Nov 2026,"(""prompt injection"") AND (""LLM"" OR ""agent"") AND (""attack"" OR ""defense"" OR ""defence"")",238,Coverage check only; results not screened
+Google Scholar,16 Nov 2026,"""indirect prompt injection"" LLM agent attack defense","about 4,000",Coverage check only; Scholar rounds its counts; results not screened
+Selection step,15 Nov 2026,"Records identified, three arXiv searches (sum)",2402,"867 + 215 + 1,320"
+Selection step,15 Nov 2026,After duplicates removed by arXiv ID,2070,Counted with the arXiv API
+Selection step,,Screened by title and abstract,41,Count stated by the author; see Section II.C of the paper
+Selection step,,Included after full reading,25,3 surveys + 22 primary studies
